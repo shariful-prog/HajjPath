@@ -31,11 +31,6 @@ Navigating the holy sites of **Makkah**, **Madinah**, **Mina**, and **Arafat** c
 ---
 
 ## 📸 Screenshots
-*(Add your app screenshots here to boost engagement and SEO quality score)*
-
-| Home Screen | Live Tracking | Ritual Guide |
-| :---: | :---: | :---: |
-| ![Screen 1](https://via.placeholder.com/200x400?text=Dashboard) | ![Screen 2](https://via.placeholder.com/200x400?text=Tracking) | ![Screen 3](https://via.placeholder.com/200x400?text=Guides) |
 
 ---
 

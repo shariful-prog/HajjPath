@@ -136,7 +136,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                 ),
                 const SizedBox(height: 32),
                 Text(
-                  'FamilyPath',
+                  'HajjPath',
                   style: GoogleFonts.plusJakartaSans(
                     fontSize: 32,
                     fontWeight: FontWeight.w900,
@@ -150,8 +150,8 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
               bottom: 60,
               child: Column(
                 children: [
-                  Text(
-                    'Your Secure Family Journey',
+                   Text(
+                    'Your Secure Hajj Journey',
                     style: GoogleFonts.plusJakartaSans(
                       fontSize: 14,
                       fontWeight: FontWeight.w500,

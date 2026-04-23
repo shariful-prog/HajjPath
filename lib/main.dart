@@ -20,7 +20,7 @@ class FamilyPathApp extends StatelessWidget {
       builder: (context, currentLocale, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'FamilyPath',
+          title: 'HajjPath',
           theme: AppTheme.lightTheme,
           locale: currentLocale,
           localizationsDelegates: const [

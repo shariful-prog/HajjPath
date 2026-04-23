@@ -54,7 +54,7 @@ class OptimizationGuideDialog extends StatelessWidget {
               context,
               '2',
               'Lock in Recent Apps',
-              'Open Recent Apps, tap (⋮) on FamilyPath, and select "Lock".',
+              'Open Recent Apps, tap (⋮) on HajjPath, and select "Lock".',
               Icons.lock_rounded,
             ),
             const SizedBox(height: 16),
