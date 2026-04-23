@@ -32,24 +32,23 @@ Navigating the holy sites of **Makkah**, **Madinah**, **Mina**, and **Arafat** c
 
 ## 📸 Screenshots
 
----
+## 📱 Application Modules
+HajjPath features a robust role-based interface designed to cater to both the pilgrims and their designated monitors/family members.
 
-## ✨ Key Features
+### 🕋 Pilgrim (User) Experience
+Designed for low-stress navigation and high accessibility.
+- **Home Dashboard:** View real-time GPS location, battery health, and geocoded address (e.g., *"Near Gate 79, Masjid al-Haram"*).
+- **Journey Roadmap:** An interactive, step-by-step checklist for all 8 stages of Hajj (from Miqat to Farewell Tawaf). Includes ritual-specific tasks and location-based advice.
+- **Voice Translator:** Seamless Arabic-to-Bengali translation to help pilgrims communicate with local staff and shopkeepers.
+- **SOS Emergency System:** A high-visibility button that immediately notifies monitors with the pilgrim's current coordinates.
+- **Smart Settings:** Toggle location collection and enable **Sleep Mode** to preserve battery during resting hours.
 
-### 📍 Real-Time Location Dashboard
-- **Live GPS Tracking:** Accurate location updates synced to Firebase.
-- **Smart Geocoding:** Automatically translates coordinates into readable addresses (e.g., *"Near Gate 79, Masjid al-Haram"*).
-- **Status Indicators:** Instantly see if a pilgrim is "Active" or has been stationary for too long.
-
-### 🛡️ Safety & Emergency Tools
-- **One-Tap SOS:** Dedicated emergency button that alerts all monitors instantly.
-- **Safety Status:** High-visibility visual cues for "Safe" vs "At Risk" status.
-- **Background Persistence:** Tracking continues even when the app is in the background.
-
-### 🏮 Hajj Assistance Hub
-- **Ritual Guide:** Step-by-step interactive walkthroughs for Hajj stages.
-- **Daily Duas & Quran:** Integrated library of spiritual resources.
-- **Embedded Resource Viewer:** View PDF guides and official websites within the app via a seamless WebView.
+### 🛰️ Monitor (Admin) Experience
+A management hub for group leaders and family members.
+- **Live Map Overview:** Interactive map showing the real-time position of every pilgrim in the group.
+- **User List & Health:** At-a-glance status of all members, showing who is "Active Now" versus "Offline," including their last updated timestamp.
+- **Travel History (Trails):** Audit and view the journey history of any individual pilgrim to see their movement "trails" over the past hours or days.
+- **Centralized Security:** Quick access to SOS notification logs and pilgrim safety status.
 
 ---
 
