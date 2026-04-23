@@ -1,0 +1,165 @@
+{
+  "@@locale": "en",
+  "appTitle": "FamilyPath",
+  "navHome": "Home",
+  "navJourney": "Journey",
+  "navTranslator": "Translator",
+  "navSettings": "Settings",
+  "navMap": "Map",
+  "navHistory": "History",
+  "navUsers": "Users",
+  
+  "welcomeBack": "Welcome back",
+  "fetchingLabel": "Fetching address...",
+  "currentLocation": "Current Location",
+  "locationNotAvailable": "Location unavailable",
+  "trackingActive": "Tracking Active",
+  "updating": "Updating...",
+  "emergencySos": "EMERGENCY SOS",
+  "hajjAssistance": "Hajj Assistance",
+  "hajjGuide": "Hajj Guide",
+  "hajjRoadmapTitle": "Journey Roadmap",
+  "hajjRoadmapDesc": "Step-by-step guide for all Hajj rituals and locations.",
+  "translatorTitle": "Voice Translator",
+  "translatorDesc": "Translate between Arabic and Bengali instantly.",
+  "videoTutorials": "Video Tutorials",
+  "howToIhram": "How to wear Ihram",
+  "tawafGuide": "Tawaf Procedures",
+  "minaSafety": "Mina Tent Guide",
+  "holyQuran": "Holy Quran",
+  "readQuran": "Read Quran",
+  "bengaliTranslation": "Bengali Translation",
+  "dailyDua": "Daily Dua",
+  "essentialPrayers": "Essential Hajj Prayers",
+  
+  "offlineTranslation": "Offline Translation",
+  "offlineSetupRequired": "Setup is required for zero-internet support.",
+  "initializedProgress": "{percentage}% Initialized...",
+  "@initializedProgress": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "enableOfflineMode": "ENABLE OFFLINE MODE",
+  "downloadFailed": "Download failed: {error}",
+  "@downloadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "speakBanglaTitle": "SPEAK BANGLA",
+  "arabicTranslationTitle": "ARABIC TRANSLATION",
+  "tapMicHint": "Tap the mic below and start speaking...",
+  "translationAppearHint": "Your translation will appear here...",
+  "listenLabel": "LISTEN",
+  "clearLabel": "CLEAR",
+  "stopLabel": "STOP",
+  "speakLabel": "SPEAK",
+  
+  "adminHistoryTitle": "Admin History",
+  "userOverviewTitle": "Users Overview",
+  "noFamilyMembers": "No family members found",
+  "activeNow": "Active Now",
+  "offlineStatus": "Offline",
+  "searchingUsers": "Searching for active users...",
+  "noUsersInDB": "No users found in database.",
+  "activeCount": "{count} Active",
+  "@activeCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "centerOnMap": "CENTER ON MAP",
+  "showTrails": "Show Trails",
+  "invalidLocation": "Invalid location data for this user",
+  "recentMovements": "Recent Movements",
+  "selectUserHint": "Select a family member to view history",
+  "noTravelData": "No travel data for this date",
+  "distLabel": "Dist.",
+  "topLabel": "Top",
+  "timeLabel": "Time",
+  "speed": "Speed",
+  "startLoc": "Start",
+  "endLoc": "End",
+  "styleVoyager": "Voyager",
+  "styleSatellite": "Satellite",
+  "styleDark": "Dark",
+  
+  "loginSubTitle": "Live Tracking & Safety Companion during Hajj",
+  "username": "Username",
+  "password": "Password",
+  "loginButton": "LOG IN",
+  "forgotPassword": "Forgot Password?",
+  "enterBothFields": "Please enter both fields",
+  "profileSettings": "Profile Settings",
+  "pushNotifications": "Push Notifications",
+  "language": "Language",
+  "english": "English",
+  "bengali": "Bengali",
+  "general": "General",
+  "locationTracking": "Location Tracking",
+  "enableTracking": "Enable Tracking",
+  "allowGPSCollection": "Allow GPS background collection",
+  "sleepMode": "Sleep Mode",
+  "sleepModeDesc": "Disable tracking during specific hours",
+  "startTime": "Start Time",
+  "endTime": "End Time",
+  "logout": "Logout",
+  "version": "Version",
+  "loadingLabel": "Loading",
+  "appPreferences": "App Preferences",
+
+  "step1Day": "8th Dhul Hijjah (8 ذو الحجة)",
+  "step1Title": "1. Miqat & Ihram (Miqat & Ihram)",
+  "step1Desc": "Ihram is the sacred state from which the Hajj pilgrimage begins.",
+  "step1Loc": "Miqat",
+  "step1Tasks": "✅ Perform full Ghusl (Sunnah)\n✅ Trim nails and groom accordingly\n✅ Apply perfume (before Ihram)\n✅ Men: Two pieces of white cloth\n✅ Women: Modest clothing (face uncovered)\n✅ 2 Rakats Nafil prayer\n✅ Intention: \"Labaik Hajjan\"\n✅ Begin reciting the Talbiyah\n❌ Do not cut hair or nails\n❌ Hunting/Quarreling prohibited\n❌ Men: No stitched clothes or head covering",
+
+  "step2Day": "8th Dhul Hijjah (8 ذو الحجة)",
+  "step2Title": "2. Stay in Mina (Yawm at-Tarwiyah)",
+  "step2Desc": "This is the day of preparation — \"يوم التروية\".",
+  "step2Loc": "Mina",
+  "step2Tasks": "✅ Move to your assigned tent\n✅ Dhuhr prayer (2 Rakats - Qasr)\n✅ Asr prayer (2 Rakats - Qasr)\n✅ Maghrib prayer (3 Rakats)\n✅ Isha prayer (2 Rakats - Qasr)\n✅ Fajr prayer (2 Rakats)\n✅ Frequent Talbiyah & Dhikr\n⚠️ Save your tent number/location\n⚠️ Stay within your group",
+
+  "step3Day": "9th Dhul Hijjah (9 ذو الحجة)",
+  "step3Title": "3. Day of Arafah",
+  "step3Desc": "👉 \"Hajj is Arafah\" — The core pillar. Depart from Mina after Sunrise.",
+  "step3Loc": "Arafah",
+  "step3Tasks": "✅ Dhuhr + Asr (Combined & Shortened)\n✅ Stay in the plain of Arafah (Wuquf)\n✅ Sincere Dua with tears\n✅ Repentance for past sins\n✅ Frequent Istighfar & Durood\n⚠️ Must stay until Sunset",
+
+  "step4Day": "9th Night → 10th Dhul Hijjah",
+  "step4Title": "4. Muzdalifah Night",
+  "step4Desc": "Staying under the stars — a critical step. Depart from Arafah after Sunset.",
+  "step4Loc": "Muzdalifah",
+  "step4Tasks": "✅ Maghrib + Isha (Combined)\n✅ Overnight stay in the open area\n✅ Collect pebbles (49 to 70 pieces)\n✅ Perform Fajr prayer & Dua\n⚠️ Depart for Mina before Sunrise",
+
+  "step5Day": "10th Dhul Hijjah (10 ذو الحجة)",
+  "step5Title": "5. Day of Sacrifice (Yawm an-Nahr)",
+  "step5Desc": "The busiest day — 4 major acts to complete.",
+  "step5Loc": "Mina",
+  "step5Tasks": "🪨 Stone the Great Jamarat (7 pebbles)\n🐐 Complete the Sacrifice (Qurbani)\n✂️ Shave or trim hair (Tahallul)\n👕 Remove Ihram (Release from restrictions)",
+
+  "step6Day": "10th Dhul Hijjah or later",
+  "step6Title": "6. Tawaf al-Ifadah",
+  "step6Desc": "👉 This is an obligatory pillar — Hajj is incomplete without it.",
+  "step6Loc": "Makkah",
+  "step6Tasks": "✅ 7 circuits of Tawaf at Kaaba\n✅ 2 Rakats at Maqam Ibrahim\n✅ Complete Sa’i between Safa & Marwa\n✅ Return to Mina for overnight stay",
+
+  "step7Day": "11th–12th Dhul Hijjah",
+  "step7Title": "7. Days of Tashreeq",
+  "step7Desc": "The days of stoning. Rituals begin after Dhuhr each day.",
+  "step7Loc": "Mina",
+  "step7Tasks": "✅ Small Jamarat (7 pebbles)\n✅ Middle Jamarat (7 pebbles)\n✅ Great Jamarat (7 pebbles)\n✅ Increased Dhikr & Prayers\n⚠️ Depart Mina before Sunset on the 12th",
+
+  "step8Day": "Before departing Makkah",
+  "step8Title": "8. Farewell Tawaf (Tawaf al-Wida)",
+  "step8Desc": "Final Departure — A deeply emotional step. This is Wajib (mandatory).",
+  "step8Loc": "Makkah",
+  "step8Tasks": "✅ 7 circuits of Farewell Tawaf\n✅ Sincere Dua for acceptance\n✅ Farewell bid to the Holy Kaaba"
+}
