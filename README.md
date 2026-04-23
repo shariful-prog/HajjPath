@@ -1,56 +1,91 @@
-# FamilyPath - Hajj Tracking & Safety Companion
+# HajjPath 🕋 — The Ultimate Pilgrim Tracking & Safety Companion
 
-FamilyPath is a premium Flutter-based Android application designed to provide live tracking, safety monitoring, and ritual assistance for pilgrims during Hajj. 
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Developed and maintained by **Techgic**, the app focuses on simplicity, reliability, and modern design standards (inspired by the Noor Guide).
-
-## ✨ Key Features
-
-- **📍 Real-Time Location Dashboard**: Live GPS tracking and reverse geocoding to show the pilgrim's exact address (e.g., Masjid al-Haram) with update timestamps.
-- **🛡️ Safety & Tracking Status**: Visual indicators ensuring family members are "Active" and "Safe" in the crowded pilgrimage environment.
-- **🆘 Emergency SOS**: One-tap emergency alert system for elderly-friendly safety.
-- **🏮 Hajj Assistance Hub**: Integrated access to ritual guides, daily duas, and the Holy Quran.
-- **🌐 Embedded Resource Viewer**: In-app WebView integration for viewing guides (PDF) and websites without leaving the application.
-- **🌓 Premium Design System**: Modern typography using **Plus Jakarta Sans** and **Lexend**, following a professional Hajj-themed color palette.
-- **🔐 Role-Based Access**: Specialized interfaces for both Pilgrims (Users) and Monitors (Admins).
-
-## 🛠️ Technology Stack
-
-- **Framework**: Flutter
-- **Database**: Firebase Realtime Database
-- **Location**: Geolocator & Geocoding
-- **Navigation**: Persistent Bottom Navigation with Role-based routing.
-- **Resources**: WebView Flutter
-- **Styling**: Google Fonts (Plus Jakarta Sans, Lexend)
-
-## 🚀 Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Latest Stable)
-- [Android Studio](https://developer.android.com/studio) or VS Code
-- A [Firebase Account](https://console.firebase.google.com/)
+**HajjPath** is a premium, high-performance Flutter application designed to ensure the safety, connectivity, and spiritual focus of pilgrims during the **Hajj and Umrah** journeys. Integrating **real-time GPS tracking**, **emergency SOS alerts**, and **interactive ritual guidance**, it serves as the ultimate digital companion for pilgrims navigating the holy cities of **Makkah and Madinah**.
 
 ---
 
-## 🛠️ Firebase Configuration
+## 📖 Table of Contents
+- [🌟 Why HajjPath?](#-why-hajjpath)
+- [📸 Screenshots](#-screenshots)
+- [✨ Key Features](#-key-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🚀 Getting Started](#-getting-started)
+- [🔥 Firebase Configuration](#-firebase-configuration)
+- [🔧 Local Setup](#-local-setup)
+- [👥 Adding Users](#-adding-users)
+- [🏃 Building & Running](#-building--running)
+- [📄 License](#-license)
 
-This app uses Firebase Realtime Database and Anonymous Authentication. Follow these steps to set up your backend:
+---
 
-### 1. Create a Firebase Project
-1. Go to the [Firebase Console](https://console.firebase.google.com/).
-2. Click **Add project** and follow the setup wizard.
+## 🌟 Why HajjPath?
+Navigating the holy sites of **Makkah**, **Madinah**, **Mina**, and **Arafat** can be overwhelming, especially in the massive crowds of the annual Hajj pilgrimage. **HajjPath** bridges the gap between technology and spirituality by providing:
+- **Peace of Mind:** Real-time tracking allows families to monitor their loved ones' location across the holy sites.
+- **Elderly-Friendly Design:** Optimized for senior pilgrims with large touch targets and high-contrast typography.
+- **Offline Reliability:** Critical ritual guides and Duas accessible without a constant internet connection.
 
-### 2. Enable Realtime Database
-1. In the Firebase Sidebar, go to **Build > Realtime Database**.
-2. Click **Create Database**.
-3. Select your location (Recommended: **Asia Southeast 1** for proximity to Hajj regions).
-4. Start in **Locked Mode** (we will update rules next).
+---
 
-### 3. Set Database Rules
-To allow the app to read user data and write location updates, set your rules to the following (or customize for production):
+## 📸 Screenshots
+*(Add your app screenshots here to boost engagement and SEO quality score)*
+
+| Home Screen | Live Tracking | Ritual Guide |
+| :---: | :---: | :---: |
+| ![Screen 1](https://via.placeholder.com/200x400?text=Dashboard) | ![Screen 2](https://via.placeholder.com/200x400?text=Tracking) | ![Screen 3](https://via.placeholder.com/200x400?text=Guides) |
+
+---
+
+## ✨ Key Features
+
+### 📍 Real-Time Location Dashboard
+- **Live GPS Tracking:** Accurate location updates synced to Firebase.
+- **Smart Geocoding:** Automatically translates coordinates into readable addresses (e.g., *"Near Gate 79, Masjid al-Haram"*).
+- **Status Indicators:** Instantly see if a pilgrim is "Active" or has been stationary for too long.
+
+### 🛡️ Safety & Emergency Tools
+- **One-Tap SOS:** Dedicated emergency button that alerts all monitors instantly.
+- **Safety Status:** High-visibility visual cues for "Safe" vs "At Risk" status.
+- **Background Persistence:** Tracking continues even when the app is in the background.
+
+### 🏮 Hajj Assistance Hub
+- **Ritual Guide:** Step-by-step interactive walkthroughs for Hajj stages.
+- **Daily Duas & Quran:** Integrated library of spiritual resources.
+- **Embedded Resource Viewer:** View PDF guides and official websites within the app via a seamless WebView.
+
+---
+
+## 🛠️ Tech Stack
+HajjPath is built using modern, industry-standard technologies:
+- **Framework:** [Flutter](https://flutter.dev) (Dart)
+- **Backend:** [Firebase Realtime Database](https://firebase.google.com/)
+- **Auth:** Firebase Anonymous Authentication
+- **Location Services:** Geolocator & Background Fetch
+- **Maps & Geocoding:** Google Maps API / Geocoding Package
+- **Typography:** Google Fonts (Plus Jakarta Sans, Lexend)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Latest Stable Version)
+- [Android Studio](https://developer.android.com/studio) / VS Code
+- A [Firebase Project](https://console.firebase.google.com/)
+
+---
+
+## 🔥 Firebase Configuration
+
+### 1. Project Setup
+1. Create a project in the [Firebase Console](https://console.firebase.google.com/).
+2. Enable **Realtime Database** (Suggested region: **Belgium** or **Singapore** for optimal latency in KSA).
+
+### 2. Security Rules
+Set these rules in the Realtime Database tab to ensure authenticated access:
 ```json
 {
   "rules": {
@@ -60,68 +95,57 @@ To allow the app to read user data and write location updates, set your rules to
 }
 ```
 
-### 4. Enable Anonymous Authentication
-1. Go to **Build > Authentication**.
-2. Click the **Sign-in method** tab.
-3. Click **Add new provider** and select **Anonymous**.
-4. Enable it and save.
+### 3. Enable Anonymous Auth
+Enable **Anonymous** as a sign-in provider under the **Authentication > Sign-in method** tab.
 
 ---
 
-## 🔧 Local Setup & Connection
+## 🔧 Local Setup
 
-### 1. Register Android App
-1. In your Firebase Project Overview, click the **Android** icon.
-2. Enter your package name (found in `android/app/build.gradle` -> `applicationId`, usually `com.techgic.familypath`).
-3. Download `google-services.json` and place it in the `android/app/` directory.
+### 1. Android Registration
+1. Register your app in Firebase using your `applicationId` (located in `android/app/build.gradle`).
+2. Download your `google-services.json` and place it in the `android/app/` folder.
 
-### 2. Configure Connection URL
-1. Copy your Realtime Database URL from the Firebase Console (e.g., `https://your-db-id.firebasedatabase.app/`).
-2. Open [lib/core/config/app_config.dart](file:///d:/Tools/Flutter/Project/familypath/lib/core/config/app_config.dart).
-3. Update the `firebaseDatabaseUrl` constant:
+### 2. Configure App Connection
+1. Open [`lib/core/config/app_config.dart`](file:///d:/Side%20Hustle/familypath/lib/core/config/app_config.dart).
+2. Replace the `firebaseDatabaseUrl` with your actual Firebase URL:
    ```dart
-   static const String firebaseDatabaseUrl = 'YOUR_DATABASE_URL_HERE';
+   static const String firebaseDatabaseUrl = 'https://your-project-id.firebaseio.com/';
    ```
 
 ---
 
 ## 👥 Adding Users
-
-The app uses a custom authentication logic based on predefined users in the database.
-
-1. Locate the [seekdata/users.json](file:///d:/Tools/Flutter/Project/familypath/seekdata/users.json) file.
-2. In the Firebase Realtime Database dashboard, click the **Data** tab.
-3. Click the three dots (menu) in the top-right and select **Import JSON**.
-4. Upload `users.json`. This will create the `users` node with default credentials:
-   - **Admin**: `admin` / `admin`
-   - **User**: `shaon` / `123`
+HajjPath uses a role-based system. To populate your database:
+1. Go to the **Realtime Database** tab in Firebase.
+2. Click the Three Dots (top right) > **Import JSON**.
+3. Upload the [`seekdata/users.json`](file:///d:/Side%20Hustle/familypath/seekdata/users.json) provided in this repo.
+   - **Admin Login:** `admin` / `admin`
+   - **User Login:** `user1` / `123`
 
 ---
 
 ## 🏃 Building & Running
 
-1. **Clone the repository**:
+1. **Clone the Repo:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/familypath.git
-   cd familypath
+   git clone https://github.com/YOUR_USERNAME/hajjpath.git
+   cd hajjpath
    ```
-2. **Install dependencies**:
+2. **Install Deps:**
    ```bash
    flutter pub get
    ```
-3. **Run the app**:
+3. **Run on Device:**
    ```bash
    flutter run
    ```
 
-*Note: Since the app uses background location services and WebViews, it is recommended to test on a physical Android device.*
-
 ---
 
-## 🏢 Developed By
-
-**Techgic**
-*Powering safe and connected journeys.*
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-*Note: This app is optimized for elderly users with large tactile touch targets and high-readability typography.*
+*Developed with ❤️ for the Ummah. Powering safe and connected journeys.*
+
